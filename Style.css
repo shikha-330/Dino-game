@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to top, #87ceeb, #c2f0f7); /* Sky gradient */
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.game {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  border: 2px solid #333;
+  overflow: hidden;
+  background: linear-gradient(to top, #c2f0f7, #fff);
+}
+
+/* Ground with subtle animation for movement effect */
+.ground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #888;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+/* Dino with running animation and hover bounce effect */
+.dino {
+  width: 40px;
+  height: 40px;
+  background-color: #2ecc71;
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  border-radius: 5px;
+  animation: run 0.5s steps(2) infinite;
+  transition: bottom 0.2s ease-out, transform 0.2s;
+}
+
+.dino:hover {
+  transform: scale(1.1); /* Slight grow on hover for interactivity */
+}
+
+@keyframes run {
+  0% { background-color: #2ecc71; }
+  50% { background-color: #27ae60; }
+  100% { background-color: #2ecc71; }
+}
+
+/* Cactus with shadow and bounce effect when hovered */
+.cactus {
+  width: 20px;
+  height: 40px;
+  background-color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 5px #c0392b;
+  transition: transform 0.2s;
+}
+
+.cactus:hover {
+  transform: scale(1.1) translateY(-5px); /* Bouncy feel */
+}
+
+/* Clouds moving animation */
+.cloud {
+  width: 60px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 800px;
+  opacity: 0.8;
+  animation: moveCloud 20s linear infinite;
+}
+
+@keyframes moveCloud {
+  0% { left: 800px; }
+  100% { left: -100px; }
+}
+
+/* Score display with shadow and glow */
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+  text-shadow: 1px 1px 2px #000, 0 0 5px #f1c40f;
+}
