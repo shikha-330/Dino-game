@@ -4,17 +4,18 @@ This is a simple clone of the **Google Chrome Dino Game** built with **HTML, CSS
 
 ## 🎮 How to Play
 - Press **Spacebar** to jump
-- Avoid the cactus 🌵
+- Avoid the cactus 🌵 (red boxes)
 - Survive as long as possible and score points 📊
+- The dinosaur is represented by the green box 🟩
 
 ## ✨ Features
-- Animated dinosaur character
-- Moving obstacles
+- Animated dinosaur character (green box)
+- Moving obstacles (red boxes as cactus)
 - Score counter
 - Simple and responsive design
 
 ## 🚀 Live Demo
-Play here 👉 (https://shikha-330.github.io/Dino-game/)
+Play here 👉 [https://USERNAME.github.io/Dino-game/](https://USERNAME.github.io/Dino-game/)
 
 ## 📌 Technologies Used
 - HTML
@@ -22,4 +23,4 @@ Play here 👉 (https://shikha-330.github.io/Dino-game/)
 - JavaScript
 
 ---
-⭐ If you like this project, don’t forget to give it a star!# Dino-game
+⭐ If you like this project, don’t forget to give it a star!
