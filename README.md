@@ -14,7 +14,7 @@ This is a simple clone of the **Google Chrome Dino Game** built with **HTML, CSS
 - Simple and responsive design
 
 ## 🚀 Live Demo
-Play here 👉 [https://USERNAME.github.io/Dino-game/](https://shikha-330.github.io/Dino-game/)
+Play here 👉 (https://shikha-330.github.io/Dino-game/)
 
 ## 📌 Technologies Used
 - HTML
